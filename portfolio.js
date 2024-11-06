@@ -1,7 +1,7 @@
-import { assets, getAssetById } from './asset.js';
+import { assets} from './asset.js';
 
 console.log('Asset List:', assets);
-console.log('Asset with ID 1:', getAssetById(1));
+
 
 // Function that calculates the total portfolio value
 export function calculatePortfolioValue() {
