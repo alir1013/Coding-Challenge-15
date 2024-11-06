@@ -6,7 +6,7 @@ export class Transaction {
         this.assetId = assetId;
         this.type = type;
         this.quantity = quantity;
-        this.assets = getAssetById(assetId);
+        this.asset = getAssetById(assetId);
     }
 
     transactionSystem() {
